@@ -10,7 +10,7 @@ import json
 from datetime import datetime
 
 # --- ۱. تنظیمات API و احراز هویت ---
-os.environ['GEMINI_API_KEY'] = "AIzaSyAQFq9vrRq3VoWszLIfhwi6lkh_3RWtFNE"
+os.environ['GEMINI_API_KEY'] = "your api" 
 if 'GEMINI_API_KEY' not in os.environ:
     print("❌ اخطار: کلید API جِمنای در متغیر محیطی GEMINI_API_KEY تنظیم نشده است.")
     sys.exit(1)
@@ -722,4 +722,5 @@ def main():
                     pass
 
 if __name__ == "__main__":
+
     main()
